@@ -48,6 +48,17 @@
 					margin-left: 10px;
 				  
 				}
+             .center {
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 50%;
+                }
+             
+                table.center {
+            margin-left:auto; 
+            margin-right:auto;
+                }   
 				ul 
 				{
 					line-height:200%
@@ -65,6 +76,19 @@
                   text-decoration: none;
                 }
 
+             .block {
+                  width: 10%;
+                  border: none;
+                  background-color: #4CAF50;
+                  padding: 14px 28px;
+                  font-size: 16px;
+                  cursor: pointer;
+                  text-align: center;
+                margin-right: 10px;
+                 margin-left: 10px; 
+                }
+             
+             
                 /* Add a hover effect if you want */
                 .fa:hover {
                   opacity: 0.7;
@@ -81,17 +105,30 @@
 			</style>
 	</head>
 	<body>
-		<img   class="center-fit" src =banner.png border="10">
+		<img   class="center" src =banner.png border="10">
 		<h1>Ballistics Buddy</h1>
         <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Add font awesome icons -->
     <a href="https://www.instagram.com/ballistics_buddy/" class="fa fa-instagram"></a>
-		<p style=LINE-HEIGHT:25px>Ballistics Buddy is an application designed to calculate the scope's Elevation and Windage adjustments for long range shooting.
+		<p style=LINE-HEIGHT:25px>Ballistics Buddy is an application designed to calculate the scope's Elevation and Windage adjustments for long-range shooting.
 		It works by calculating the bullet trajectory relative to the scope's line of sight, where the trajectory is influenced by gravity, the aerodynamic drag, the wind, your specific rifle setup, air density (temperature, pressure/altitude, and humidity), Gyroscopic spin drift, and the Coriolis force.
 		The aim of this application is to be quick and easy to use in the field, while still being able to capture all of the significant factors which influence the bullet's trajectory. </p>
-		<p>Ballistic Buddy:</p>
+        
+        
+        <h3> Meet Bradley: </h3>
+        <table class="center" style="width:700px"> 
+            <th> <img src =bboyd.png style="width:250px;height:350px;"> </th>
+            <th> <p style=LINE-HEIGHT:25px> Bradley was brought up hunting-orientated family in Queenstown, New Zealand which provided a lot of hunting opportunities of mainly deer, but also goats, rabbits and the odd Tahr. He was often shooting from long distances but found many apps were limited in their capacity or too complicated for most hunters. So, he decided to create Ballistics Buddy because he wanted a more user-friendly app that included additional features to increase accuracy. </p>    </th>
+            
+        </table>
+    
+            
+        <br> 
+        
+            
+        <p>Download Ballistics Buddy:</p>
 		<ul>
 			<li> <a href="https://play.google.com/store/apps/details?id=app.BallisticsBuddy&hl=en_US" target="_blank">Andriod - Google Play Store</a> </li>
 			<li> coming soon to iOS - Apple App Store </li>
@@ -99,9 +136,84 @@
 		<p style=LINE-HEIGHT:25px>Ballistics Buddy consists of two setups: (1) rifle setup and (2) elevation and windage.</p>
 		<ul>
 			<li> <a href="step1_setup.html" target="_self">Rifle setup info</a> </li>
-			<li> <a href="step2_elevation_windage.html" target="_self">Windage and Elevation info</a> </li>
+			<li> <a href="step2_elevation_windage.html" target="_self">Elevation and Windage info</a> </li>
 		</ul>
-		<p>Any questions or feedback, please email me at bradley.w.boyd (at) gmail.com</p>
+        
+       
+      
+        
+    <table class="centre" cellspacing=10> 
+        <tr>
+           <br> 
+            <th> <img src =Jessie.png style="width:350px;height:450px;"> </th>
+            <th> <img src =logan.png style="width:500px;height:350px;"> </th>
+            <th> <img src =bradley.png style="width:350px;height:450px;"> </th>
+        
+        </tr>
+        
+        </table>
+        
+        <br>
+        
+        <h3> Reviews: </h3>
+        
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=5">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+        
+        <h3> Contact Us: </h3>
+    
+		<p>Please get in touch with us by filling out the form below if you have any questions or feedback. </p>
+        
+        <div class="container"> 
+            <form action="action_page.php">
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="emailaddress">Email Address</label>
+                <input type="text" id="emailaddress" name="emailaddress">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" style="height:200px"></textarea>
+                
+                <button type="button" class="block">Send</button>
+
+        </form>
+    </div>
+        
 		<p> -  </p>
 		<p>  - </p>
 		<p>  - </p>
