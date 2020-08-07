@@ -10,26 +10,27 @@ body {
 p {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+    
 }
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 h2 {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .center-fit {
     max-width: 60%;
@@ -54,13 +55,25 @@ table.center {
 ul 
 {
     line-height:200%
+   
 }
+
+ul li {
+    list-style: none; 
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
 /* Style all font awesome icons */
 .fa {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 10px;
+  margin-left: auto;
+    
+  position: absolute;
+  right: 60px;
+    
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -76,8 +89,6 @@ ul
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-    margin-right: 10px;
-     margin-left: 10px; 
 }
 
 
@@ -148,6 +159,8 @@ list-style: none;
 display: inline-block; 
 float: left; 
 line-height: 100px; 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 nav ul li a {
@@ -156,5 +169,6 @@ text-decoration: none;
 font-size: 18px; 
 font-family: arial; 
 color: #1e1e1e; 
-padding: 0 20px; 
+padding: 0 10px;
+    
 }
