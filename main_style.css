@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    font-family: arial; 
 }
 .imgbox {
     display: grid;
@@ -61,7 +62,12 @@ h3 {
 table.center {
     margin-left:auto; 
     margin-right:auto;
-}   
+}  
+
+table{
+    font-size: 12px; 
+}
+
 
 ul 
 {
@@ -82,7 +88,8 @@ ul li {
   border: none;
   background-color: #4CAF50;
   padding: 14px 28px;
-  font-size: 16px;
+  font-size: 12px; 
+  font-family: arial; 
   cursor: pointer;
   text-align: center;
 }

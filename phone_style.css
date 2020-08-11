@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    font-family: arial; 
 }
 .imgbox {
     display: grid;
@@ -82,11 +83,16 @@ ul li {
   border: none;
   background-color: #4CAF50;
   padding: 7px 14px;
-  font-size: 16px;
+  font-size: 12px; 
+  font-family: arial; 
   cursor: pointer;
   text-align: center;
 }
 
+
+table{
+    font-size: 12px; 
+}
 
 /* Add a hover effect if you want */
 .fa:hover {
