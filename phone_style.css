@@ -9,41 +9,42 @@ body {
 
 }
 p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-  LINE-HEIGHT:25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  LINE-HEIGHT:20px;
     
 }
 h1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .center-fit {
-    max-width: 60%;
+    max-width: 90%;
     max-height: 60vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .center {
   display: block;
@@ -56,19 +57,13 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 60%;
 }
 
 table.center {
     margin-left:auto; 
     margin-right:auto;
-}  
-
-table{
-    font-size: 12px; 
-}
-
-
+}   
 ul 
 {
     line-height:200%
@@ -77,8 +72,8 @@ ul
 
 ul li {
     list-style: none; 
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
@@ -87,7 +82,7 @@ ul li {
   width: 10%;
   border: none;
   background-color: #4CAF50;
-  padding: 14px 28px;
+  padding: 7px 14px;
   font-size: 12px; 
   font-family: arial; 
   cursor: pointer;
@@ -95,11 +90,33 @@ ul li {
 }
 
 
+table{
+    font-size: 12px; 
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: #FF33FC; 
+  color: white; 
+}
+
+
+.container {
+border-radius: 2px;
+background-color: #f2f2f2;
+padding: 10px;
+}
 
 * {
- margin: 10;
- padding: 10; 
+ margin: 5;
+ padding: 5; 
 }
 
 body {
@@ -108,7 +125,7 @@ body {
 
 section {
     background-color: #fff;
-    width: 60%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +133,7 @@ section {
 
 nav {
  width: 100%;
- height: 100px; 
+ height: 50px; 
  background-color: #fff; 
  display: flex;
  align-items: center;
@@ -131,40 +148,27 @@ nav ul {
 
 nav ul li {
     float: left; 
-    line-height: 100px; 
-    margin-left: 30px;
-    margin-right: 30px;
+    line-height: 50px; 
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 nav ul li a {
     display: block; 
-    height: 100px;
+    height: 50px;
     text-decoration: none; 
-    font-size: 18px; 
+    font-size: 9px; 
     font-family: arial; 
     color: #1e1e1e; 
-    padding: 10 10px;
+    padding: 5 5px;
     
 }
 /* Style all font awesome icons */
 .fa {
 
-  padding: 20px;
+  padding: 5px;
   width: 25px;
   height: 25px;
   text-align: center;
   text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-instagram {
-  background: #FF33FC; 
-  color: white; 
 }
